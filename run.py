@@ -9,7 +9,7 @@ def main():
         
         print("4. Exit")
 
-        escolha = input("Escolha uma opção: ")
+        escolha = input("Make you choice ")
 
         if escolha == "1":
             os.system("python  client.py")  
