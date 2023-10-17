@@ -1,12 +1,10 @@
 import socket
 import threading
 
-host = 'localhost'
-port = 55555
 
 nickname = input("Choose your Nickname: ")
-# host = input("Choose your Nickname: ")
-# port = input("Choose your Nickname: ")
+host = input("Choose Host IP: ")
+port = int(input("Choose Host Port: "))
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((host,port))
